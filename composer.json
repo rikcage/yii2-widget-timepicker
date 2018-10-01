@@ -1,6 +1,6 @@
 {
     "name": "rikcage/yii2-widget-timepicker",
-    "description": "Enhanced Yii2 wrapper for the bootstrap timepicker plugin (sub repo split from yii2-widgets)",
+    "description": "Enhanced Yii2 wrapper for the bootstrap timepicker plugin (sub repo split from yii2-widgets) unlimited clock",
     "keywords": [
         "yii2",
         "extension",
@@ -10,11 +10,12 @@
         "picker",
         "bootstrap",
         "jquery",
+        "unlimited",
         "plugin"
     ],
     "homepage": "https://github.com/rikcage/yii2-widget-timepicker",
     "type": "yii2-extension",
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Rik Cage",
@@ -28,11 +29,6 @@
     "autoload": {
         "psr-4": {
             "rikcage\\time\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
