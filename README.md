@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require kartik-v/yii2-widget-timepicker "*"
+$ php composer.phar require rikcage/yii2-widget-timepicker "*"
 ```
 
 or add
 
 ```
-"kartik-v/yii2-widget-timepicker": "*"
+"rikcage/yii2-widget-timepicker": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -24,13 +24,13 @@ to the ```require``` section of your `composer.json` file.
 ## Usage
 
 ```php
-use kartik\time\TimePicker;
+use rikcage\time\TimePicker;
 
 // usage without model
 echo '<label>Start Time</label>';
 echo TimePicker::widget([
 	'name' => 'start_time', 
-	'value' => '11:24 AM',
+	'value' => '54:24',
 	'pluginOptions' => [
 		'showSeconds' => true
 	]
