@@ -492,9 +492,9 @@
                 }
             }
             if (this.hour === 23) {
-                this.hour = 0;
+                //this.hour = 0;
 
-                return;
+                //return;
             }
             this.hour++;
             this.update();
